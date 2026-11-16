@@ -1,101 +1,60 @@
-# 🛍️ Folio – E-commerce Store
+﻿# Folio — E-commerce Store
 
-Folio is a modern and responsive e-commerce website built with Next.js, React, TypeScript, and Tailwind CSS.
-It provides product browsing, search and filtering, product details, shopping cart management, and light/dark theme support.
+Folio is a responsive storefront demo for curated everyday products. It is built with Next.js, React, TypeScript, and Tailwind CSS.
 
-## ✨ Features
+## Features
 
-- 🛍️ Product listing
-- 🔍 Product search
-- 🗂️ Category filtering
-- 👀 Product details
-- 🛒 Shopping cart
-- ➕ Increase/decrease product quantity
-- ❌ Remove products from cart
-- 💰 Automatic subtotal calculation
-- 🌙 Light/Dark mode
-- 📱 Responsive design
-- 🔔 Toast notifications
-- ⭐ Product ratings
-- 📧 Newsletter subscription UI
+- Browse a sample product collection with category filters and search
+- Open product quick views with descriptions, ratings, and prices
+- Add products to a shopping bag, change quantities, and view the subtotal
+- Switch between light and dark themes
+- Submit an email in the newsletter form for an on-page confirmation
+- Responsive layout for desktop and mobile screens
 
-## 🛠️ Technologies Used
+This project is a front-end demo. Product data and the shopping bag are held in the browser; checkout, newsletter signup, accounts, and payments are not connected to a backend.
 
-- Next.js
-- React
+## Getting started
+
+### Requirements
+
+- Node.js 20 or newer
+- npm or pnpm
+
+### Install and run
+
+```bash
+git clone https://github.com/VEERENDRAKUMARKR/CodeAlpha_Simple_E-commerce_Store.git
+cd CodeAlpha_Simple_E-commerce_Store
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Available scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the local development server |
+| `npm run build` | Create a production build |
+| `npm start` | Serve the production build |
+
+## Tech stack
+
+- Next.js and React
 - TypeScript
 - Tailwind CSS
-- shadcn/ui
-- Lucide React
-- HTML
-- CSS
-- JavaScript
+- Lucide React icons
 
-## 🚀 Installation
+## Project structure
 
-Clone the repository:
+```text
+app/                App Router pages and global styles
+components/ui/      Shared interface components
+lib/                Utility functions
+public/             Static images and icons
+```
 
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+## Maintainer
 
-Navigate to the project folder:
-
-cd build-e-commerce-store
-
-Install dependencies:
-
-npm install
-
-## ▶️ Run the Project
-
-Start the development server:
-
-npm run dev
-
-Open the application in your browser:
-
-http://localhost:3000
-
-## 📦 Production Build
-
-Create a production build:
-
-npm run build
-
-Start the production server:
-
-npm start
-
-## 📂 Project Structure
-
-build-e-commerce-store/
-│
-├── app/
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-│
-├── components/
-│   └── ui/
-│
-├── lib/
-│   └── utils.ts
-│
-├── public/
-│
-├── package.json
-├── next.config.mjs
-├── postcss.config.mjs
-└── tsconfig.json
-
-## 🎯 Project Objective
-
-The main objective of this project is to develop a modern e-commerce interface while demonstrating practical skills in Next.js, React, TypeScript, responsive UI design, and frontend development.
-
-## 🎥 Demo
-
-[View Demo](https://drive.google.com/file/d/1MpztFq48xlYlXPRYJZGA_rUK_PeBkbnT/view?usp=sharing)
-
-## 👩‍💻 Author
-
-Pragna GM
-Computer Science and Engineering Student
+[VEERENDRAKUMARKR](https://github.com/VEERENDRAKUMARKR)
